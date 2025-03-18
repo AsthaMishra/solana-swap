@@ -13,7 +13,7 @@ export default function BasicFeature() {
 
   return publicKey ? (
     <div>
-      <AppHero title="Basic" subtitle={'Run the program by clicking the "Run program" button.'}>
+      <AppHero title="Swap" subtitle={'Run the program by clicking the "Run program" button.'}>
         <p className="mb-6">
           <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
         </p>
